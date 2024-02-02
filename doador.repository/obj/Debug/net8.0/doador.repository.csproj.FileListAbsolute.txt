@@ -1,0 +1,16 @@
+C:\Users\amanda.onunes\source\repos\doador.api\doador.repository\bin\Debug\net8.0\doador.repository.deps.json
+C:\Users\amanda.onunes\source\repos\doador.api\doador.repository\bin\Debug\net8.0\doador.repository.dll
+C:\Users\amanda.onunes\source\repos\doador.api\doador.repository\bin\Debug\net8.0\doador.repository.pdb
+C:\Users\amanda.onunes\source\repos\doador.api\doador.repository\bin\Debug\net8.0\doador.domain.dll
+C:\Users\amanda.onunes\source\repos\doador.api\doador.repository\bin\Debug\net8.0\doador.domain.pdb
+C:\Users\amanda.onunes\source\repos\doador.api\doador.repository\obj\Debug\net8.0\doador.repository.csproj.AssemblyReference.cache
+C:\Users\amanda.onunes\source\repos\doador.api\doador.repository\obj\Debug\net8.0\doador.repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amanda.onunes\source\repos\doador.api\doador.repository\obj\Debug\net8.0\doador.repository.AssemblyInfoInputs.cache
+C:\Users\amanda.onunes\source\repos\doador.api\doador.repository\obj\Debug\net8.0\doador.repository.AssemblyInfo.cs
+C:\Users\amanda.onunes\source\repos\doador.api\doador.repository\obj\Debug\net8.0\doador.repository.csproj.CoreCompileInputs.cache
+C:\Users\amanda.onunes\source\repos\doador.api\doador.repository\obj\Debug\net8.0\doador.repository.sourcelink.json
+C:\Users\amanda.onunes\source\repos\doador.api\doador.repository\obj\Debug\net8.0\doador.repository.csproj.CopyComplete
+C:\Users\amanda.onunes\source\repos\doador.api\doador.repository\obj\Debug\net8.0\doador.repository.dll
+C:\Users\amanda.onunes\source\repos\doador.api\doador.repository\obj\Debug\net8.0\refint\doador.repository.dll
+C:\Users\amanda.onunes\source\repos\doador.api\doador.repository\obj\Debug\net8.0\doador.repository.pdb
+C:\Users\amanda.onunes\source\repos\doador.api\doador.repository\obj\Debug\net8.0\ref\doador.repository.dll

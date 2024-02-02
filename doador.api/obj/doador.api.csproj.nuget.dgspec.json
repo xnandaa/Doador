@@ -31,7 +31,14 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\amanda.onunes\\source\\repos\\doador.api\\doador.domain\\doador.domain.csproj": {
+                "projectPath": "C:\\Users\\amanda.onunes\\source\\repos\\doador.api\\doador.domain\\doador.domain.csproj"
+              },
+              "C:\\Users\\amanda.onunes\\source\\repos\\doador.api\\doador.service\\doador.service.csproj": {
+                "projectPath": "C:\\Users\\amanda.onunes\\source\\repos\\doador.api\\doador.service\\doador.service.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -64,6 +71,204 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\amanda.onunes\\source\\repos\\doador.api\\doador.domain\\doador.domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\amanda.onunes\\source\\repos\\doador.api\\doador.domain\\doador.domain.csproj",
+        "projectName": "doador.domain",
+        "projectPath": "C:\\Users\\amanda.onunes\\source\\repos\\doador.api\\doador.domain\\doador.domain.csproj",
+        "packagesPath": "C:\\Users\\amanda.onunes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\amanda.onunes\\source\\repos\\doador.api\\doador.domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\amanda.onunes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\amanda.onunes\\source\\repos\\doador.api\\doador.repository\\doador.repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\amanda.onunes\\source\\repos\\doador.api\\doador.repository\\doador.repository.csproj",
+        "projectName": "doador.repository",
+        "projectPath": "C:\\Users\\amanda.onunes\\source\\repos\\doador.api\\doador.repository\\doador.repository.csproj",
+        "packagesPath": "C:\\Users\\amanda.onunes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\amanda.onunes\\source\\repos\\doador.api\\doador.repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\amanda.onunes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\amanda.onunes\\source\\repos\\doador.api\\doador.domain\\doador.domain.csproj": {
+                "projectPath": "C:\\Users\\amanda.onunes\\source\\repos\\doador.api\\doador.domain\\doador.domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.28, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\amanda.onunes\\source\\repos\\doador.api\\doador.service\\doador.service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\amanda.onunes\\source\\repos\\doador.api\\doador.service\\doador.service.csproj",
+        "projectName": "doador.service",
+        "projectPath": "C:\\Users\\amanda.onunes\\source\\repos\\doador.api\\doador.service\\doador.service.csproj",
+        "packagesPath": "C:\\Users\\amanda.onunes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\amanda.onunes\\source\\repos\\doador.api\\doador.service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\amanda.onunes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\amanda.onunes\\source\\repos\\doador.api\\doador.domain\\doador.domain.csproj": {
+                "projectPath": "C:\\Users\\amanda.onunes\\source\\repos\\doador.api\\doador.domain\\doador.domain.csproj"
+              },
+              "C:\\Users\\amanda.onunes\\source\\repos\\doador.api\\doador.repository\\doador.repository.csproj": {
+                "projectPath": "C:\\Users\\amanda.onunes\\source\\repos\\doador.api\\doador.repository\\doador.repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
