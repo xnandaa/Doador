@@ -23,8 +23,8 @@ namespace doador.repository.Repository
         public Task<string> PostAsync(DoadorCommand command)
         {
             string queryInsertDoador = @"
-            INSERT INTO DOADOR(DoadorId, DoadorNome, Cidade, Estado)
-            Cep(@DoadorId, @DoadorNome, @Cidade, @Estado, @Cep)
+            INSERT INTO DOADOR(DoadorId, DoadorNome, Cidade, Estado,Cep,Email,Telefone)
+            VALUES(@DoadorId, @DoadorNome, @Cidade, @Estado, @Cep,@Email,@Telefone)
             ";
 
             using (SqlConnection con = new SqlConnection(conexao))
@@ -33,6 +33,7 @@ namespace doador.repository.Repository
                 {
                     DoadorId = command.DoadorId,
                     DoadorNome = command.DoadorNome,
+                    Cidade= command.Cidade,
                     Estado = command.Estado,
                     Cep = command.Cep,
                     Email = command.Email,

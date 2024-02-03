@@ -21,9 +21,9 @@ namespace doador.service.Service
             throw new NotImplementedException();
         }
 
-        public Task<string> PostAsync(ProdutoCommand command)
+        public async Task<string> PostAsync(ProdutoCommand command)
         {
-            throw new NotImplementedException();
+            return await _repository.PostAsync(command);
         }
 
         public void PostAsync()
