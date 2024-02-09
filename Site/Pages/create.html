@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/create.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Criar Novo Doador</h2>
+
+    <form id="create-from">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome">
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade">
+
+        <label for="estado">Estado:</label>
+        <input type="text" id="estado" required >
+
+        <label for="cep">CEP:</label>
+        <input type="text" id="cep" required >
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" required >
+
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone" required >
+<div>
+    <button type="button" onclick="createDoador()">Salvar</button>
+</div>
+        
+
+    </form>
+    <script src="../js/create.js"></script> 
+
+    
+</body>
+</html>

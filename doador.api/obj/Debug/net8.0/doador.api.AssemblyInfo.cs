@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("doador.api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43edc47cbe29fd8f2c5a2bf1e8380aa50a8bb83c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ede35f1d760e295703c878840b8f9f1973f5a45")]
 [assembly: System.Reflection.AssemblyProductAttribute("doador.api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("doador.api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

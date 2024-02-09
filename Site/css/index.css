@@ -1,0 +1,25 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td{
+    border: 1px solid #B0E0E6;
+    text-align: left;
+    padding: 8px;
+
+}
+th{
+    background-color: #E0FFFF;
+}
+button{
+    cursor: pointer;
+    padding: 5px 10px;
+}
+html{
+    background-color: #F0FFFF;
+}

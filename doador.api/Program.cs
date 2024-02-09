@@ -15,10 +15,30 @@ builder.Services.AddScoped<IDoadorService, DoadorService>();
 builder.Services.AddScoped<IDoadorRepository, DoadorRepository>();
 builder.Services.AddScoped<IProdutoService, ProdutoService>();
 builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
- var app = builder.Build();
+builder.Services.AddCors(options =>
+
+{
+    options.AddPolicy("AllowAllOrigins",
+        builder =>
+
+        {
+            builder.AllowAnyOrigin()
+                  .AllowAnyMethod()
+                  .AllowAnyHeader();
+        });
+});
+var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+
+}
+if (app.Environment.IsDevelopment())
+    app.UseCors("AllowAllOrigins");
+app.UseHttpsRedirection();
 {
     app.UseSwagger();
     app.UseSwaggerUI();
